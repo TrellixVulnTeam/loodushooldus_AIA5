@@ -1,5 +1,6 @@
 Title: Teenused
 Date: 01.01.2020
 
-#####SAAGIMINE
-##### HOOLDAMINE
+  - ### Ohtlikute puude langetamine
+  - ### Viljapuude lõikus
+  - ### Kändude freesimine
