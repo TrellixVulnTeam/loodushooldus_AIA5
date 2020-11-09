@@ -3,11 +3,11 @@
 
 AUTHOR = 'siim juuse'
 SITENAME = 'LOODUSHOOLDUS OÜ'
-SITEURL = 'www.loodushooldus.ee'
+SITEURL = 'loodushooldus.ee'
 
 PATH = 'content'
 STATIC_PATH = 'images'
-
+OUTPUT_PATH = 'docs/'
 
 TIMEZONE = 'Europe/Tallinn'
 
