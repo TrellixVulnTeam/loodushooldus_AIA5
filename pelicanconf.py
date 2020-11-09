@@ -3,7 +3,7 @@
 
 AUTHOR = 'siim juuse'
 SITENAME = 'LOODUSHOOLDUS OÜ'
-SITEURL = 'loodushooldus.ee/pages/avaleht.html'
+SITEURL = ''
 
 PATH = 'content'
 STATIC_PATH = 'images'
