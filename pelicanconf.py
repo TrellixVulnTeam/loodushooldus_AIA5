@@ -2,8 +2,10 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = 'siim juuse'
-SITENAME = 'LOODUSHOOLDUS OÜ'
+SITENAME = ''
 SITEURL = ''
+
+
 
 PATH = 'content'
 STATIC_PATH = 'images'
@@ -16,7 +18,7 @@ DEFAULT_LANG = 'en'
 THEME = 'themes/loodushooldus'
 
 USE_FOLDER_AS_CATEGORY = False
-DEFAULT_CATEGORY = 'Avaleht'
+
 
 #PAGINATION
 
@@ -30,14 +32,13 @@ DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 
 MENUITEMS = (
-    ('Avaleht', '/pages/avaleht.html'),
     ('Teenused', '/pages/teenused.html'),
     ('Hinnakiri', '/pages/hinnakiri.html'),
     ('Kontakt', '/pages/kontakt.html')
     )
 LOAD_CONTENT_CACHE = False  #WTF SEE SIIN TEEB <----
 
-#JINJA_ENVIRONMENT = {'trim_blocks': True, 'lstrip_blocks': True}
+JINJA_ENVIRONMENT = {'trim_blocks': True, 'lstrip_blocks': True}
 
 
 
@@ -49,12 +50,12 @@ AUTHOR_FEED_RSS = False
 RSS_FEED_SUMMARY_ONLY = False
 
 # LINKS FOR WEBSITES
-#LINKS = (('AHVID', 'www.ahvidonpuuotsas.ee'))
+LINKS = (('AH','www.ahvid.ee')),
 
 
-# Social media
-#SOCIAL = (('You can add links in your config file', '#'),
-#('Another social link', '#'),)
+#Social media
+SOCIAL = (('Loodushooldus', 'www.facebook.com'),
+('Another social link', '#'),)
 
 
 # Uncomment following line if you want document-relative URLs when developing

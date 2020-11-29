@@ -19,7 +19,9 @@
 <body id="index" class="home">
 {% include 'github.html' %}
         <header id="banner" class="body">
-                <h1><a href="{{ SITEURL }}/pages/avaleht.html">{{ SITENAME }}{% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
+                <header>
+
+                <h1><a href="/"><i><img src="/images/Logo_RGB_500x500px.png"></i>{% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
                 <nav><ul>
                 {% for title, link in MENUITEMS %}
                     <li><a href="{{ link }}">{{ title }}</a></li>
@@ -41,7 +43,7 @@
         <section id="extras" class="body">
         {% if LINKS %}
                 <div class="blogroll">
-                        <h2>{{ LINKS_WIDGET_NAME | default('links') }}</h2>
+                        <h2>{{ LINKS_WIDGET_NAME | default('partnerid') }}</h2>
                         <ul>
                         {% for name, link in LINKS %}
                             <li><a href="{{ link }}">{{ name }}</a></li>
@@ -51,7 +53,7 @@
         {% endif %}
         {% if SOCIAL or FEED_ALL_ATOM or FEED_ALL_RSS %}
                 <div class="social">
-                        <h2>{{ SOCIAL_WIDGET_NAME | default('social') }}</h2>
+                        <h2>{{ SOCIAL_WIDGET_NAME | default('leia meid veel:') }}</h2>
                         <ul>
                             {% if FEED_ALL_ATOM %}
                             <li><a href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate">atom feed</a></li>
@@ -69,11 +71,10 @@
         </section><!-- /#extras -->
 
         <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
+                <!--<address id="about" class="vcard body">
                 Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
-                </address><!-- /#about -->
-
-                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+                </address>&lt;!&ndash; /#about-->
+                <p> Made by  <a href="https://www.bearmetal.eu">BEARMETAL OÜ</a> </p>
         </footer><!-- /#contentinfo -->
 
 {% include 'analytics.html' %}

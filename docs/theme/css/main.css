@@ -17,7 +17,7 @@
 /***** Global *****/
 /* Body */
 body {
-    background: #F5F4EF;
+    background: #FFFFFF;
     color: #000305;
     font-size: 87.5%; /* Base font size: 14px */
     font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -58,7 +58,7 @@ a:link, a:visited {
 
 
 a:hover, a:active {
-	background-color: #00D1C4;           #linkide taust , tekstid, kui hiirega peale liigud
+	background-color: #008d34;           #linkide taust , tekstid, kui hiirega peale liigud
 	color: #fff;
 	text-decoration: none;
 	text-shadow: 1px 1px 1px #333;
@@ -222,7 +222,7 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 	}
 	#banner nav a:hover, #banner nav a:active,
 	#banner nav .active a:link, #banner nav .active a:visited {
-		background: #00D1C4;                                           #menuu taustav2rv
+		background: #008D34;                                           #menuu taustav2rv
 		color: #fff;
 		text-shadow: none !important;
 	}
@@ -289,7 +289,7 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 #extras ul {list-style: none; margin: 0;}
 #extras li {border-bottom: 1px solid #fff;}
 #extras h2 {
-	color: #C74350;
+	color: #00504b;
 	font-size: 1.429em;
 	margin-bottom: .25em;
 	padding: 0 3px;
